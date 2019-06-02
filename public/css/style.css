@@ -27,9 +27,9 @@ h1, h2, h3, h4, h5, p {
     width: 100%;
     min-height: 60px;
     margin-top: 3%;
-    margin-left: 4em;
-    margin-right: 4em;
-    padding: 0;
+    /* margin-left: 4em; */
+    /* margin-right: 4em; */
+    padding: 2em;
 }
 
 .header__inner{
@@ -44,6 +44,10 @@ h1, h2, h3, h4, h5, p {
     text-align: right;
     float: right;
     
+}
+
+.header__desc > h1{
+    text-align: center;
 }
 
 .header__logo{
