@@ -1,0 +1,135 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+/* general styles */
+
+header, article, div, section, main, .row{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+    /* overflow: hidden; */
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0; 
+  }
+
+
+/* HEADER STYLES */
+
+.container{
+    width: 100%;
+    min-height: 60px;
+    margin-top: 3%;
+    margin-left: 4em;
+    margin-right: 4em;
+    padding: 0;
+}
+
+.header__inner{
+    width: 100%;
+    padding-top: 1.2em; 
+}
+
+.header__desc{
+    display: inline-flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    text-align: right;
+    float: right;
+    
+}
+
+.header__logo{
+    height: 140px;
+    width: auto;
+    /* margin-left: -30px;
+    margin-top: -20px; */
+    /* padding-bottom: 1.2em;  */
+
+}
+
+
+.header__title{
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+    font-size: 3.0em;
+    font-weight: 300;
+    color: #3d4144;
+    letter-spacing: 0.1em;
+}
+
+hr{
+    width: 100%;
+    border: 2px solid #7d97ad;
+}
+
+.header__text{
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+}
+
+main img{
+    width: 100%;
+}
+
+.section__title{
+    padding: 1.2em 0;
+    color: #7d97ad;
+}
+
+.col-lg-4{
+    text-align: center;
+}
+
+.col-lg-4 > img{
+    margin: 0;
+    border: 2px solid #02b3e4;
+    /* padding: 0; */
+    width: 100%;
+    float: left;
+}
+
+.col-lg-4 > p{
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+
+.col-lg-4 > img:last-of-type{
+    margin-right: 0;
+}
+
+
+.about__me{
+    background-color: #c7d9e9;
+    margin-top: 2em;
+    padding: 0;
+    
+}
+
+.about__desc > img{
+    width: 200px; 
+    height: auto;
+    margin: 1.2em 0;
+    border: 2px solid #02b3e4;
+    border-radius: 50%;
+}
+
+.about__desc{
+    width: 100%;
+    padding: 1.2em;
+    text-align: center;
+    align-content: center;
+}
+
+.about__desc > h3{
+    color: #02b3e4;
+}
