@@ -106,6 +106,9 @@ main img{
     text-transform: uppercase;
 }
 
+.col-lg-4 > a{
+    padding: 24px;
+}
 
 .col-lg-4 > img:last-of-type{
     margin-right: 0;
