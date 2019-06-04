@@ -35,7 +35,7 @@ p {
     width: 100%;
     min-height: 60px;
     margin-top: 3%;
-    padding: 2em;
+    padding: 2%;
 }
 
 .header__inner{
@@ -52,7 +52,6 @@ p {
     flex-wrap: wrap;
     text-align: right;
     align-items: flex-end;
-    
 }
 
 .header__logo{
@@ -63,9 +62,9 @@ p {
 
 .header__title{
     font-family: 'Lato', sans-serif;
-    font-size: 3.0em;
     font-weight: 300;
     color: #3d4144;
+    font-size: 3.0em;
     letter-spacing: 0.1em;
 }
 
@@ -82,6 +81,7 @@ hr{
 
 main img{
     width: 100%;
+    padding: 0 1%;
 }
 
 .section__title{
@@ -106,7 +106,7 @@ main img{
 }
 
 p+a{
-    padding: 24px;
+    padding: 24px 0;
     margin-top: 10px;
     font-size: 1.2em;
 }
@@ -118,6 +118,7 @@ p+a{
 /* about_me section styles */
 
 .about__me{
+    width: 100%;
     background-color: #c7d9e9;
     margin-top: 2em;
     padding: 0;
