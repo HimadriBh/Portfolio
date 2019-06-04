@@ -28,11 +28,6 @@
 
     }
 
-    .container{
-        /* width: 100%; */
-        margin: 0;
-    }
-
     body,
     html{
         font-size: 0.9em;
